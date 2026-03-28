@@ -48,10 +48,10 @@ class Program
     static void PrintHelp()
     {
         Console.WriteLine("Using:");
-        Console.WriteLine("  app.exe --sshHost <host> --sshUser <user> --sshPass <pass> \\");
+        Console.WriteLine("  TgNotifier.exe --sshHost <host> --sshUser <user> --sshPass <pass> \\");
         Console.WriteLine("          --botToken <token> --chatId <id> --message <text>\n");
 
-        Console.WriteLine("Аргументы:");
+        Console.WriteLine("Args:");
         Console.WriteLine("  --sshHost     IP or domain server");
         Console.WriteLine("  --sshUser     SSH username");
         Console.WriteLine("  --sshPass     SSH password");
